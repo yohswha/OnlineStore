@@ -2,17 +2,36 @@
     margin: 0;
     padding: 0;
 }
-.heading{
-    background-color: rgb(36, 44, 57);
+body{
+      background-color: rgb(205, 234, 247);
+}
+.header-container .heading{
+    background-color: rgb(23, 29, 39);
     color: #fff;
     text-transform: uppercase;
     height: 1rem;
     line-height: 1.6;
     width: 100%;
+    padding: 1rem;
 
 }
-.header-container .menu{
+.header-container img{
+    width: 4rem;
+    height: 4rem;
+    margin: 0.5rem 1rem;
+
+}
+
+.header-container .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 4rem;
+    float: right;
 } 
+.header-container {
+}
 
 .menu a{
     text-decoration: none;
@@ -23,22 +42,24 @@
 }
 a{text-decoration: none;}
 .container{
-    width: 90%;
+    width: 100%;
     display: flex;
-    margin:1rem ;
+    border: ;
 }
 .container .portada{
     width: 60%;
 }
 .container .textoPortada{
     width: 40%;
+    align-content: center;
+
 }
 .textoPortada h1{
     font-size: 40px;
     margin-top: 4rem;
 }
 .textoPortada p, a{
-    margin: 1rem 0rem 2rem;
+    margin: 1rem 0rem 3rem;
 }
 .textoPortada article{
     width: max-content;
