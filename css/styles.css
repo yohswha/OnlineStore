@@ -30,6 +30,7 @@ a{
     width: 30%;
     border: solid;
     display: grid;
-
-    
+}
+.textoPortada h1{
+    font-size: larger;
 }
