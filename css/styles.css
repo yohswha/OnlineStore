@@ -51,7 +51,8 @@ a{text-decoration: none;}
     display: flex;
 }
 .portada .portadaImage{
-    width: 60%;
+    width: 50em;
+    max-width: 70%;
 }
 .portada .textoPortada{
     width: 40%;
@@ -81,4 +82,10 @@ a{text-decoration: none;}
     margin: 2em auto;
     width: 80%;
     line-height: 1.6;
+}
+.images{
+    width: 700px;
+    max-width: 100%;
+    display: block;
+    justify-self: center;
 }
