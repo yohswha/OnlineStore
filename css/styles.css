@@ -56,6 +56,7 @@ a{text-decoration: none;}
     cursor: pointer;
     float: right;
     padding: 40px 20px;
+    display: none;
 
 }
 .hamb-line{
@@ -86,6 +87,20 @@ a{text-decoration: none;}
 }
 .side-menu:checked ~ nav{
     max-height: 100%;
+}
+
+@media (max-width:800px) {
+    .hamb{
+        display: block;
+    }
+
+    .menu a{
+        position: fixed;
+        left: 100%;
+
+    }
+
+    
 }
 
 .portada{
