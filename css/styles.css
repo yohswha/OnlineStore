@@ -47,10 +47,15 @@ body{
     color: rgb(36, 44, 57);
     margin: 1rem;
     text-align: center;
+    overflow: hidden;
 
 }
 a{text-decoration: none;}
-
+.kart{
+    position: relative;
+    display: block;
+    margin: auto 2rem;
+}
 
 .hamb{
     cursor: pointer;
@@ -89,9 +94,12 @@ a{text-decoration: none;}
     max-height: 100%;
 }
 
-@media (max-width:800px) {
+@media (max-width:960px) {
     .hamb{
         display: block;
+    }
+    .hamb:hover{
+        
     }
 
     .menu a{
@@ -112,7 +120,7 @@ a{text-decoration: none;}
 }
 .portada .portadaImage{
     width: 50em;
-    max-width: 70%;
+    max-width: 50%;
 }
 .portada .textoPortada{
     width: 40%;
